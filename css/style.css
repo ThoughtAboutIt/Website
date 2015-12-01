@@ -5,125 +5,58 @@
  *
  * Made By MaterializeCSS.com
  */
-@charset "utf-8";
-/* CSS Document */
+ body{
+   min-width:400px;
+   background-color:#bdbdbd;
 
-*
-body
-{background-color: #66ccff}
-{
-	margin:0;
-	padding:0;
-}
-#login-form
-{
-	margin-top:70px;
-}
-table
-{
-	border:solid #dcdcdc 1px;
-	padding:25px;
-	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
-}
-table tr,td
-{
-	padding:15px;
-	//border:solid #e1e1e1 1px;
-}
-table tr td input
-{
-	width:97%;
-	height:45px;
-	border:solid #e1e1e1 1px;
-	border-radius:3px;
-	padding-left:10px;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:16px;
-	background:#f9f9f9;
-	transition-duration:0.5s;
-	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
-}
+ }
+.logo{
+width:200px;
+height:150px;
+  float:left;
+  margin:5px;
 
-table tr td button
-{
-	width:100%;
-	height:45px;
-	border:0px;
-	background:rgba(12,45,78,11);
-	background:-moz-linear-gradient(top, #595959 , #515151);
-	border-radius:3px;
-	box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
-	color:#f9f9f9;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-	font-weight:bolder;
-	text-transform:uppercase;
 }
-table tr td button:active
-{
-	position:relative;
-	top:1px;
-}
-table tr td a
-{
-	text-decoration:none;
-	color:#00a2d1;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-}
+#logoadmin{
+width:200px;
+height:50px;
+    float:left;}
+.buttontest {
+    margin-top: 23px;
+    text-align: center;
+    font-size: 30px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 50px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+    position: absolute;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent; }
 
-/* css for home page  */
-
-*
-{
-	margin:0;
-	padding:0;
 }
-#header
-{
-	width:100%;
-	height:60px;
-	background:rgba(00,11,22,33);
-	color:#9fa8b0;
-	font-family:Verdana, Geneva, sans-serif;
+.sfm input {background-color: #f5f5f5; 
+    font-size: 8px; 
+    border: 0px; 
+    text-transform: uppercase; 
+    margin-top: 0px; 
+    color: #999; 
+    letter-spacing: 1px; 
+    padding: 4px 8px;
+    font-family: calibri, helvetica, arial;}
+.icon-block {
+  padding: 0 15px;
 }
-#header #left
-{
-	float:left;
-	position:relative;
+.icon-block .material-icons {
+	font-size: inherit;
 }
-#header #left label
-{
-	position:relative;
-	top:5px;
-	left:100px;
-	font-size:35px;
-}
-#header #right
-{
-	float:right;
-	position:relative;
-}
-#header #right #content
-{
-	position:relative;
-	top:20px;
-	right:100px;
-	color:#fff;
-}
-#header #right #content a
-{
-	color:#00a2d1;
-}
-
-
-#body
-{
-	text-align:center;
-	margin-top:150px;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:36px;
-}
+#banner{
+  width:80%
+  margin: 40px;
+  margin-top:100px;
 }
 .cardpanel {
   position: relative;
@@ -256,7 +189,7 @@ img {
     height: auto;
 }
 nav.top-nav {
-  height: 100px;
+  height: 122px;
   box-shadow: none; }
   nav.top-nav a.page-title {
     line-height: 122px;
@@ -264,13 +197,7 @@ nav.top-nav {
 #terms
 {float:left;
 padding:10px}
-#Submit{
-float:right;
-}
-#signup{
-float:left;
-margin-top: -10px;
-}
-
+#submit{
+text-align:right;}
 .box{
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
